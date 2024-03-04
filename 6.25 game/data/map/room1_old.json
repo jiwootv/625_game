@@ -1,0 +1,56 @@
+{
+
+  "tilemap":
+  {
+
+
+    "1;1": {"type": "wall","img":"Bricks1","IRID":"0","pos":[1,1]},
+    "1;2": {"type": "wall","img":"Bricks2","IRID":"0","pos":[1,2]},
+    "1;3": {"type": "wall","img":"Bricks1","IRID":"0","pos":[1,3]},
+    "1;4": {"type": "wall","img":"Bricks1","IRID":"0","pos":[1,4]},
+    "1;5": {"type": "wall","img":"Bricks2","IRID":"0","pos":[1,5]},
+
+    "2;1": {"type": "wall","img":"Bricks1","IRID":"0","pos":[2,1]},
+    "2;2": {"type": "wall","img":"Bricks2","IRID":"0","pos":[2,2]},
+    "2;3": {"type": "wall","img":"Bricks1","IRID":"0","pos":[2,3]},
+    "2;4": {"type": "wall","img":"Bricks3","IRID":"0","pos":[2,4]},
+    "2;5": {"type": "wall","img":"Bricks1","IRID":"0","pos":[2,5]},
+
+    "3;1": {"type": "wall","img":"Bricks1","IRID":"0","pos":[3,1]},
+    "3;2": {"type": "wall","img":"Bricks1","IRID":"0","pos":[3,2]},
+
+    "2;6": {"type": "floor","img":"Floor1","IRID":"0","pos":[2,6]},
+
+    "2;7": {"type": "floor","img":"Floor3","IRID":"0","pos":[2,7]},
+
+    "3;6": {"type": "floor","img":"Floor1","IRID":"0","pos":[3,6]},
+
+    "3;7": {"type": "floor","img":"Floor3","IRID":"0","pos":[3,7]},
+
+    "3;8": {"type": "floor","img":"Floor1","IRID":"0","pos":[3,8]},
+
+    "4;8": {"type": "floor","img":"Floor2","IRID":"0","pos":[4,8]},
+
+    "5;8": {"type": "floor","img":"Floor1","IRID":"0","pos":[5,8]},
+
+    "6;8": {"type": "floor","img":"Floor1","IRID":"0","pos":[6,8]},
+
+    "7;8": {"type": "floor","img":"Floor1","IRID":"0","pos":[7,8]},
+
+    "8;8": {"type": "floor","img":"Floor1","IRID":"0","pos":[8,8]},
+
+    "9;8": {"type": "floor","img":"Floor1","IRID":"0","pos":[9,8]},
+
+    "10;8": {"type": "floor","img":"Floor1","IRID":"0","pos":[10,8]},
+
+    "11;8": {"type": "floor","img":"Floor2","IRID":"0","pos":[11,8]},
+
+    "12;8": {"type": "floor","img":"Floor3","IRID":"0","pos":[12,8]},
+
+    "13;8": {"type": "floor","img":"Floor1","IRID":"0","pos":[13,8]},
+    "1;6": {"type": "floor","img":"Floor1","IRID":"0","pos":[1,6]},
+    "1;7": {"type": "floor","img":"Floor1","IRID":"0","pos":[1,7]}
+  },
+  "size":
+  [10, 13]
+}

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8525b8e-685a-4813-b7f4-ac8fa5b587f1" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/625 game.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/asd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/code/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/code/msgbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/code/save.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/code/textinputbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/font/DungGeunMo OTF.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/font/DungGeunMo.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/SHOTGUN_INTRO2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/cousor/cousor1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/Bricks2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/Bricks3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/BricksLayer1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/BricksLayer2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/BricksLayer3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/BricksLayer4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/BricksLayer5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/Floor1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/Floor2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/Floor3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/map/room1_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/map/room1_old.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/map/room2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/save/file1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/save/file2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/sound/effect/A Piano.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/sound/effect/Connect.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/sound/effect/Typing.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/읽어주세요.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonGame_1-main/.idea/py_samples.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/강의/pt 3 = if.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python312/Lib/tkinter/__init__.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2c1jWGnSTTyxhNDsRLpXroh89CC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.__init__.executor": "Run",
+    "Python.asd.executor": "Run",
+    "Python.asda.executor": "Run",
+    "Python.battle_message.executor": "Run",
+    "Python.battle_start.executor": "Run",
+    "Python.battle_turn.executor": "Run",
+    "Python.block_game.executor": "Run",
+    "Python.column11.executor": "Run",
+    "Python.game.executor": "Run",
+    "Python.list0903_1.executor": "Debug",
+    "Python.list0904_1.executor": "Run",
+    "Python.list1303_1.executor": "Run",
+    "Python.list1304_1.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.map.executor": "Run",
+    "Python.maze_game.executor": "Run",
+    "Python.msgbox.executor": "Run",
+    "Python.one_hour_dungeon.executor": "Run",
+    "Python.save.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.textinputbox.executor": "Run",
+    "Python.undertale game ver1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/PC/PycharmProjects/625 game/6.25 game/data/map",
+    "settings.editor.selected.configurable": "editing.templates"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\map" />
+      <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\save" />
+      <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\font" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\img\tiles\brick" />
+      <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\img\tiles" />
+      <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\img" />
+      <recent name="C:\Users\PC\PycharmProjects\625 game" />
+      <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="pip " />
+      <command value="pip" />
+      <command value="&lt;rect(0, 0, 20, 20)&gt;" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="625 game" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6.25 game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.25 game/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="map" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="625 game" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6.25 game/data/img" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\code\map.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="textinputbox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="625 game" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6.25 game/data/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.25 game/data/code/textinputbox.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.textinputbox" />
+        <item itemvalue="Python.map" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="c8525b8e-685a-4813-b7f4-ac8fa5b587f1" name="변경" comment="" />
+      <created>1707286008617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707286008617</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
