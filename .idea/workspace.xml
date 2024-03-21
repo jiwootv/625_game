@@ -4,46 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8525b8e-685a-4813-b7f4-ac8fa5b587f1" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/625 game.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/asd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/code/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/code/msgbox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/code/save.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/code/textinputbox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/font/DungGeunMo OTF.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/font/DungGeunMo.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/SHOTGUN_INTRO2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/cousor/cousor1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/Bricks2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/Bricks3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/BricksLayer1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/BricksLayer2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/BricksLayer3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/BricksLayer4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/BricksLayer5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/Floor1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/Floor2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/Floor3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/map/room1_.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/map/room1_old.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/map/room2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/save/file1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/save/file2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/sound/effect/A Piano.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/sound/effect/Connect.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/sound/effect/Typing.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/읽어주세요.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonGame_1-main/.idea/py_samples.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/강의/pt 3 = if.py" afterDir="false" />
+    <list default="true" id="c8525b8e-685a-4813-b7f4-ac8fa5b587f1" name="변경" comment="dasd">
+      <change afterPath="$PROJECT_DIR$/6.25 game/1950MapEditor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/Gun/Rebolber-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/Gun/Rebolber.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/BricksConer1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/우리 동아리.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LevelEditor-main/button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LevelEditor-main/level0_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LevelEditor-main/level1_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LevelEditor-main/level3_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/asd.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/asd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/code/msgbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/code/msgbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/code/save.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/code/save.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/BricksLayer2.png" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/BricksLayer2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/BricksLayer5.png" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/BricksLayer5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/map/room1_.json" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/map/room1.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,51 +59,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.__init__.executor": "Run",
-    "Python.asd.executor": "Run",
-    "Python.asda.executor": "Run",
-    "Python.battle_message.executor": "Run",
-    "Python.battle_start.executor": "Run",
-    "Python.battle_turn.executor": "Run",
-    "Python.block_game.executor": "Run",
-    "Python.column11.executor": "Run",
-    "Python.game.executor": "Run",
-    "Python.list0903_1.executor": "Debug",
-    "Python.list0904_1.executor": "Run",
-    "Python.list1303_1.executor": "Run",
-    "Python.list1304_1.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.map.executor": "Run",
-    "Python.maze_game.executor": "Run",
-    "Python.msgbox.executor": "Run",
-    "Python.one_hour_dungeon.executor": "Run",
-    "Python.save.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.textinputbox.executor": "Run",
-    "Python.undertale game ver1.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/PC/PycharmProjects/625 game/6.25 game/data/map",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.1950MapEditor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aliens.executor&quot;: &quot;Run&quot;,
+    &quot;Python.asd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.asda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.audiocapture.executor&quot;: &quot;Run&quot;,
+    &quot;Python.battle_message.executor&quot;: &quot;Run&quot;,
+    &quot;Python.battle_start.executor&quot;: &quot;Run&quot;,
+    &quot;Python.battle_turn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.blend_fill.executor&quot;: &quot;Run&quot;,
+    &quot;Python.block_game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.button.executor&quot;: &quot;Run&quot;,
+    &quot;Python.camera.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chimp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.column11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.level_editor_tut.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list0903_1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.list0904_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list1303_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list1304_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.map.executor&quot;: &quot;Run&quot;,
+    &quot;Python.maze_game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.msgbox.executor&quot;: &quot;Run&quot;,
+    &quot;Python.one_hour_dungeon.executor&quot;: &quot;Run&quot;,
+    &quot;Python.save.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.textinputbox.executor&quot;: &quot;Run&quot;,
+    &quot;Python.undertale game ver1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/PycharmProjects/625 game/LevelEditor-main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\PycharmProjects\625 game\LevelEditor-main" />
       <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\map" />
       <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\save" />
       <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\font" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\img\tiles\brick" />
-      <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\img\tiles" />
       <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\img" />
-      <recent name="C:\Users\PC\PycharmProjects\625 game" />
+      <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\code" />
+      <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game" />
       <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data" />
+      <recent name="C:\Users\PC\PycharmProjects\625 game" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -204,8 +192,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.textinputbox" />
         <item itemvalue="Python.map" />
+        <item itemvalue="Python.textinputbox" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +213,15 @@
       <option name="presentableId" value="Default" />
       <updated>1707286008617</updated>
     </task>
+    <task id="LOCAL-00001" summary="dasd">
+      <option name="closed" value="true" />
+      <created>1709545412105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709545412105</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,5 +237,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="dasd" />
+    <option name="LAST_COMMIT_MESSAGE" value="dasd" />
   </component>
 </project>

@@ -45,12 +45,12 @@ class Save:
                 else: self.file0_r[0] = r
         if filenum == 1:
             if type == "name":
-                if len(self.file0_r) == 0: self.file0_r.append(r)
-                else: self.file1_r[1] = r
+                if len(self.file1_r) == 0: self.file1_r.append(r)
+                else: self.file1_r[0] = r
         if filenum == 2:
             if type == "name":
-                if len(self.file0_r) == 0: self.file0_r.append(r)
-                else: self.file2_r[2] = r
+                if len(self.file2_r) == 0: self.file2_r.append(r)
+                else: self.file2_r[0] = r
 
 
     def write(self):
@@ -66,7 +66,9 @@ class Save:
         self.file2.close()
 
     def is_none(self, file_number):
-        return eval('len(self.file{}_r)==0'.format(file_number, file_number))
+        print(eval('self.file{}_r[0]=="None"'.format(file_number, file_number)))
+        print(bool(eval('self.file{}_r[0] == "None"'.format(file_number, file_number))))
+        return bool(eval('self.file{}_r[0] == "None"'.format(file_number, file_number)))
 
     def load(self, type, filenum):
         return eval(f"self.file{filenum}_r[{type}]")

@@ -6,6 +6,7 @@ pygame.init()
 DIR = "data\\"
 if __name__ == "__main__": DIR = "..\\"
 
+DEBUG = False
 
 def eventset(r):
 	global EVENT
@@ -36,12 +37,13 @@ class MsgBox:
 	def t_update(self):
 		self.rect_t = self.font.render(self.now_text, 1, (255, 255, 255))
 		if not len(self.text) == self.now_text_count or self.now_text_count == 0:
-			print("------")
+			if DEBUG: print("------")
 			self.now_text += self.text[self.now_text_count]
 			self.now_text_count += 1
 			if self.now_text_count != 0: self.sound[self.sound_type].play()
-			print("현재 글자:", self.now_text)
-			print("현재 글자 순서:", self.now_text_count)
+			if DEBUG:
+				print("현재 글자:", self.now_text)
+				print("현재 글자 순서:", self.now_text_count)
 
 	def _draw(self):
 		pygame.draw.rect(self.root, (255, 255, 255), self.rect1)
@@ -88,7 +90,7 @@ if __name__ == "__main__":
 			pygame.quit()
 			sys.exit()
 		elif a == "END2":
-			print("성공")
+			if DEBUG: print("성공")
 			break
 
 	while True:
@@ -97,7 +99,7 @@ if __name__ == "__main__":
 			pygame.quit()
 			sys.exit()
 		elif a == "END2":
-			print("성공")
+			if DEBUG: print("성공")
 			break
 
 	while True:
@@ -105,5 +107,5 @@ if __name__ == "__main__":
 		pygame.display.update()
 		for event in pygame.event.get():
 			if event.type == pygame.QUIT:
-				print("BER")
+				if DEBUG: print("BER")
 				sys.exit()
