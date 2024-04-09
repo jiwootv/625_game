@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8525b8e-685a-4813-b7f4-ac8fa5b587f1" name="변경" comment="dasd">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/1950MapEditor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/Dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/Lab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/tiles/brick/Black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/map/room1_backup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/Lab.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.25 game/data/map/room1.json" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/map/room1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.25 game/data/map/room2.json" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/map/room2.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +85,11 @@
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/PC/PycharmProjects/625 game/LevelEditor-main",
     "settings.editor.selected.configurable": "editing.templates"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -238,7 +235,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712490461958</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dasd">
+      <option name="closed" value="true" />
+      <created>1712491367612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712491367612</updated>
+    </task>
+    <task id="LOCAL-00005" summary="dasd">
+      <option name="closed" value="true" />
+      <created>1712491425889</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712491425889</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
