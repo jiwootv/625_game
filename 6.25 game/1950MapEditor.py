@@ -1,6 +1,13 @@
 # 와 위대한 시작..
 # 1950 게임 맵 에디터 메인 코드
 
+"""IRID 타입 총정리
+0번: 없음
+1번: 다음 방 이동
+2번: 이전 방 이동
+3번: 없음
+"""
+
 import data.code.button as bt  # 절대 빼먹으면 안되는 것
 import data.code.map as m_ap
 import pygame
@@ -45,7 +52,7 @@ class Main:
 			self.now_map.append(self.Map_c.mapGet(i))
 		if DEBUG: print(self.now_map, "\nasd")
 
-		self.IRID_list = ["없음", "다음 방 이동"]
+		self.IRID_list = ["없음", "다음 방 이동", "이전 방 이동"]
 		pygame.display.set_caption("1950 Map Editor")
 		self.text = lambda size, text, color, x, y: self.screen.blit(
 			pygame.font.Font(r"data\font\DungGeunMo.otf", size).render(text, 1, color), (x, y))
@@ -159,9 +166,6 @@ class Main:
 						if DEBUG: print('Delete')
 						del self.now_map[self.file_index]["tilemap"][f"{self.pos_x + 1};{self.pos_y + 1}"]
 					self.Map_c.load_to_list(self.now_map[self.file_index])
-				# print(self.now_map[self.file_index - 1]["tilemap"])
-				# print(str(self.pos_x) + ";" + str(self.pos_y))
-				# print(self.now_map[self.file_index - 1]["tilemap"][f"{self.pos_x + 1};{self.pos_y + 1}"])
 				except KeyError:
 					if DEBUG: print("None")
 
@@ -183,8 +187,6 @@ class Main:
 		self.Map_c.load_to_list(self.Map_c.mapGet(1))
 		self.Map_c.draw_set()
 		self.Map_c.brickPassSet(1)
-		# print(len(self.Map_c.mapGet(2)))
-
 		while self.playing:
 
 			self.screen.fill((0, 0, 0))
@@ -194,8 +196,10 @@ class Main:
 				a = "존재하지 않는 IRID"
 
 			self.draw_preview()
+
 			self.Map_c.draw()
 			self.Map_c.event()
+
 			self.lines()
 			self.draw_hider()
 			self.event()

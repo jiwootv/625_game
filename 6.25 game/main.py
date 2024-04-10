@@ -444,7 +444,9 @@ class Game:
             self.screen.fill(0)
             M.draw()
             M.event()
-            Screen.blit(M.assets["Player1"], (287, 215))
+            M._load(1)
+            M.draw_set()
+            Screen.blit(M.assets["Player"], (287, 215))
             pygame.display.update()
             for event in pygame.event.get():
                 self.event(event)

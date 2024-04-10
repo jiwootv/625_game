@@ -43,7 +43,8 @@ class Map:
 			}
 		self.assets["Player"].set_colorkey((255, 255, 255))  # 하얀색 부분 제거
 
-		self.p_hitbox = self.assets["Player"].get_rect()
+		self.p_hitbox = pygame.rect.Rect(287, 215, 66, 99)
+		print(self.p_hitbox, "SAD")
 		self.p_nexthitbox = 0  # 플레이어 이동시 미리 히트박스 계산
 
 		self.root = screen  # 스크린 설정
@@ -56,6 +57,7 @@ class Map:
 		self.new_tile_list = []
 		self.mapNumber = 1  # 임시지정
 		self.tile_hitboxes = []
+		self.TileHitboxIR = []
 		self.move_pos = [0, 0]
 		self.move_speed = 5
 
@@ -63,6 +65,7 @@ class Map:
 		self.value_to_key = lambda x, y: {i for i in x if x[i] == y}
 
 		self.color = (255, 0, 0)
+		self.tileEvent = []
 
 		# Map Count ( 맵 개수 ) 지정
 		self.MAP_COUNT = 2
@@ -81,6 +84,7 @@ class Map:
 
 	def _load(self, mapnumber):
 		self.tile_list = []
+		self.tile_hitboxes = []
 		with open(DIR1 + f"room{mapnumber}.json") as f:
 			self.tempMap = json.load(f)
 		if DEBUG:
@@ -104,7 +108,9 @@ class Map:
 		if DEBUG:
 			print(type(self.mapH))
 
+
 	def load_to_list(self, value):
+		self.tile_hitboxes = []
 		if DEBUG:
 			print(value)
 		if DEBUG:
@@ -124,6 +130,7 @@ class Map:
 		if DEBUG:
 			print("map size:", self.mapW, self.mapH)
 			print(type(self.mapH))
+		print(self.tile_list, "R")
 
 	def draw_set(self):
 		self.move_pos = list(map(lambda x: x * 30, self.map1["startpos"]))
@@ -132,16 +139,16 @@ class Map:
 		for i in range(len(self.tile_list)):
 			self.new_tile_list.append(
 				pygame.transform.scale(self.assets[self.tile_list[i]['img']], (self.tilesize, self.tilesize)))
-		for i in self.tile_list:
+
+		for _ in self.tile_list:
 			self.tile_hitboxes.append("")
-
-		# print(self.tile_hitboxes)
-
+		# 2871031
 		# 칸 크기 조정
 		for i in self.assets.values():
 			r = self.get_key(i, self.assets)
 			if DEBUG: print(r)
 			if r != "Player": self.assets[r] = pygame.transform.scale(self.assets[r], (self.tilesize, self.tilesize))
+
 
 	def var_set(self, type, result):
 		eval(f"self.{type} = {result}")
@@ -179,6 +186,8 @@ class Map:
 				pygame.draw.rect(self.root, self.color, self.p_hitbox)
 				pygame.draw.rect(self.root, self.color, self.tile_hitboxes[0])
 
+
+
 	def brickPassSet(self, result):
 		self.brickPass = result
 
@@ -189,6 +198,26 @@ class Map:
 	# def map_dataEdit(self, mapNumber):
 
 	def event(self):
+		#pygame.draw.rect(self.root, (200, 0, 0), self.p_hitbox)
+		self.TileHitboxIR = []
+		self.tileEvent = []
+		for i in range(self.tile_list.__len__()): self.TileHitboxIR.append("None")
+		# IRID 지정
+		#print(self.tile_list.__len__(), self.tile_hitboxes.__len__())
+		for i in range(len(self.tile_list)):
+			x = self.tile_list[i]["pos"][0] * self.tilesize - self.tilesize + self.move_pos[0]
+			y = self.tile_list[i]["pos"][1] * self.tilesize - self.tilesize + self.move_pos[1]
+			self.TileHitboxIR[i] = (pygame.Rect(x, y, self.tilesize, self.tilesize))
+
+		# IRID 설정
+		for tileIR in self.TileHitboxIR:
+
+			if self.p_hitbox.colliderect(tileIR):
+				print(self.tile_list[self.TileHitboxIR.index(tileIR)]["IRID"])
+				self.tileEvent.append(self.tile_list[self.TileHitboxIR.index(tileIR)]["IRID"])
+
+		# 충돌 / 이동감지
+
 		self.collides = [0, 0, 0, 0]
 		self.movetype = [0, 0, 0, 0]
 		P = pygame.key.get_pressed()
@@ -219,9 +248,11 @@ class Map:
 					c += 1
 					a += self.move_speed
 				self.p_nexthitbox = pygame.Rect(a, b, next_x, next_y)
-				pygame.draw.rect(self.root, self.color, self.p_nexthitbox)
+				if DEBUG:
+					pygame.draw.rect(self.root, self.color, self.p_nexthitbox)
 				for tile_rect in self.tile_hitboxes:
 					if tile_rect != '' and not self.brickPass:
+						#print(tile_rect)
 						if self.p_nexthitbox.colliderect(tile_rect):
 							self.collides[i] = 1
 							break
@@ -247,17 +278,28 @@ if __name__ == "__main__":
 	Screen = pygame.display.set_mode((640, 480))
 	M = Map(Screen)
 	Clock = pygame.time.Clock()
-	M._load(1)
+	ROOMNUMBER = 1
+	M._load(ROOMNUMBER)
+	def main():
+		global ROOMNUMBER
+		M.draw_set()
+		while True:
+			Screen.fill(0)
+			M.event()
+			M.draw()
 
-	M.draw_set()
-	while True:
-		Screen.fill(0)
-		M.draw()
-		M.event()
-		Screen.blit(M.assets["Player"], (287, 215))
-		pygame.display.update()
-		for event in pygame.event.get():
-			if event.type == pygame.QUIT:
-				pygame.quit()
-				sys.exit()
-		Clock.tick(60)
+
+			Screen.blit(M.assets["Player"], (287, 215))
+			pygame.display.update()
+			for event in pygame.event.get():
+				if event.type == pygame.QUIT:
+					pygame.quit()
+					sys.exit()
+			for i in M.tileEvent:
+				if i == 1:
+					ROOMNUMBER += 1
+					M._load(ROOMNUMBER)
+					M.draw_set()
+			print()
+			Clock.tick(60)
+	main()

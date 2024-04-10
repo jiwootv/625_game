@@ -6,6 +6,504 @@
   <component name="ChangeListManager">
     <list default="true" id="c8525b8e-685a-4813-b7f4-ac8fa5b587f1" name="변경" comment="dasd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/clouds/cloud_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/clouds/cloud_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/idle/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/run/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/run/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/run/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/run/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/run/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/run/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/run/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/enemy/run/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/idle/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/jump/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/run/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/run/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/run/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/run/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/run/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/run/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/run/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/run/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/slide/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/entities/player/wall_slide/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/gun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/leaf/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/particle/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/particle/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/particle/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/particles/particle/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/projectile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/decor/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/decor/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/decor/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/decor/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/grass/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/grass/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/grass/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/grass/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/grass/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/grass/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/grass/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/grass/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/grass/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/large_decor/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/large_decor/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/large_decor/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/spawners/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/spawners/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/stone/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/stone/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/stone/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/stone/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/stone/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/stone/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/stone/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/stone/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/images/tiles/stone/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/maps/0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/maps/1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/maps/2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/music.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/sfx/ambience.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/sfx/dash.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/sfx/hit.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/sfx/jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/data/sfx/shoot.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_window/ninja_game/game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/clouds/cloud_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/clouds/cloud_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/idle/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/run/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/run/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/run/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/run/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/run/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/run/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/run/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/enemy/run/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/idle/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/jump/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/run/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/run/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/run/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/run/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/run/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/run/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/run/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/run/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/slide/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/entities/player/wall_slide/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/gun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/leaf/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/particle/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/particle/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/particle/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/particles/particle/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/projectile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/decor/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/decor/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/decor/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/decor/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/grass/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/grass/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/grass/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/grass/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/grass/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/grass/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/grass/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/grass/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/grass/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/large_decor/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/large_decor/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/large_decor/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/spawners/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/spawners/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/stone/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/stone/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/stone/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/stone/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/stone/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/stone/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/stone/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/stone/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/images/tiles/stone/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/maps/0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/maps/1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/maps/2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/music.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/sfx/ambience.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/sfx/dash.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/sfx/hit.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/sfx/jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/data/sfx/shoot.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_images_input_collisions/ninja_game/game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/1950MapEditor.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/1950MapEditor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/code/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/code/map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/map/room1.json" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/map/room1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/map/room2.json" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/map/room2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/save/file0" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/save/file0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/button.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/Background/mountain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/Background/pine1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/Background/pine2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/Background/sky_cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/img/tile/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/level0_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/level1_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/level3_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelEditor-main/level_editor_tut.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/.idea/py_samples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Appendix/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Appendix/block_game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Appendix/maze_game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Appendix/pen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Appendix/study_words.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Appendix/wall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter10/pg_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter10/pg_chara0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter10/pg_chara1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter10/pg_slime.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter10/pygame_bgm.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter10/pygame_draw.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter10/pygame_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter10/pygame_image2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter10/pygame_key.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter10/pygame_korean.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter10/pygame_mouse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter10/pygame_music.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter10/pygame_se.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter10/pygame_system.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/battle_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/battle_start.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/battle_turn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/btlbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/column11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/dungeon_maker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/effect_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/enemy1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/enemy2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/enemy3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/enemy4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/floor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/maze_maker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/walk_in_dungeon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter11/wall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/column12_file_read.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/column12_file_write.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/column12_int.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/apple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/blaze_gem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/btlbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/cocoon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/effect_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/effect_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/enemy0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/enemy1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/enemy2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/enemy3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/enemy4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/enemy5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/enemy6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/enemy7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/enemy8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/enemy9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/floor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/meat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/mychr0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/mychr1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/mychr2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/mychr3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/mychr4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/mychr5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/mychr6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/mychr7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/mychr8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/parameter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/potion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/spoiled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/stairs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/tbox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/wall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/image/wall2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/one_hour_dungeon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/sound/ohd_bgm_battle.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/sound/ohd_bgm_field.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/sound/ohd_bgm_title.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/sound/ohd_jin_gameover.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/sound/ohd_jin_levup.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/sound/ohd_jin_win.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/sound/ohd_se_attack.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/sound/ohd_se_blaze.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/sound/ohd_se_potion.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter12/test2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter13/list1302_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter13/list1302_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter13/list1302_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter13/list1302_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter13/list1303_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter13/list1303_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter13/list1303_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter13/list1304_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter13/ninja.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter13/swordsman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter3/list0301_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter3/list0301_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter3/list0302_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter3/list0303_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter3/list0303_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter3/list0304_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter3/list0304_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter3/list0304_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter3/list0304_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter3/list0305_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter3/list0305_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter3/list0305_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter4/list0402_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter4/list0402_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter4/list0403_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter4/list0403_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter4/list0403_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter4/list0403_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter4/list0404_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter4/list0404_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter4/list0404_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter4/list0404_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter5/list0502_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter5/list0502_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter5/list0502_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter5/list0502_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter5/list0503_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter5/list0503_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter5/list0503_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter5/list0503_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter5/list0503_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter5/list0504_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter5/list0504_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter5/list0504_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter5/list0504_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter5/list0504_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter6/column06.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter6/hyunju.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter6/list0601_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter6/list0601_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter6/list0602_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter6/list0602_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter6/list0603_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter6/list0603_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter6/list0604_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter6/list0604_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter6/list0605_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter6/list0605_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter6/list0605_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter6/miko.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter7/list0701_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter7/list0701_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter7/list0702_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter7/list0703_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter7/list0703_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter7/list0703_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter7/list0704_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter7/list0705_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter7/list0705_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter7/list0705_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter7/list0705_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter7/mina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/cat00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/cat01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/cat02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/cat03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/column08.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/list0801_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/list0802_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/list0803_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/list0803_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/list0803_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/list0804_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/list0805_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/list0806_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/list0806_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/list0806_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/mimi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter8/mimi_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/column09.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/list0902_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/list0903_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/list0904_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/list0905_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/list0906_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/list0907_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/list0908_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/list0909_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/neko1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/neko2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/neko3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/neko4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/neko5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/neko6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/neko_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/neko_cursor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/neko_niku.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/Chapter9/neko_pzl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonGame_1-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Lab.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame+undertale+game+ver1/NanumGothic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame+undertale+game+ver1/Soul.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame+undertale+game+ver1/nife.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame+undertale+game+ver1/nife2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame+undertale+game+ver1/nife3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame+undertale+game+ver1/nife4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame+undertale+game+ver1/nifesound.WAV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame+undertale+game+ver1/nifesound2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame+undertale+game+ver1/undertale game ver1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame+undertale+game+ver1/undertale_background - 복사본.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame+undertale+game+ver1/undertale_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame+undertale+game+ver1/undertalebgm2.mp3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +521,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python312/Lib/json/__init__.py" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python312/Lib/tkinter/__init__.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/6.25 game/1950MapEditor.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -43,55 +542,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.1950MapEditor.executor": "Run",
-    "Python.Dict.executor": "Run",
-    "Python.Lab.executor": "Run",
-    "Python.__init__.executor": "Run",
-    "Python.aliens.executor": "Run",
-    "Python.asd.executor": "Run",
-    "Python.asda.executor": "Run",
-    "Python.audiocapture.executor": "Run",
-    "Python.battle_message.executor": "Run",
-    "Python.battle_start.executor": "Run",
-    "Python.battle_turn.executor": "Run",
-    "Python.blend_fill.executor": "Run",
-    "Python.block_game.executor": "Run",
-    "Python.button.executor": "Run",
-    "Python.camera.executor": "Run",
-    "Python.chimp.executor": "Run",
-    "Python.column11.executor": "Run",
-    "Python.game.executor": "Run",
-    "Python.level_editor_tut.executor": "Run",
-    "Python.list0903_1.executor": "Debug",
-    "Python.list0904_1.executor": "Run",
-    "Python.list1303_1.executor": "Run",
-    "Python.list1304_1.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.map.executor": "Run",
-    "Python.maze_game.executor": "Run",
-    "Python.msgbox.executor": "Run",
-    "Python.one_hour_dungeon.executor": "Run",
-    "Python.save.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.textinputbox.executor": "Run",
-    "Python.undertale game ver1.executor": "Run",
-    "Python.이름이 지정되지 않았습니다.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/PC/PycharmProjects/625 game/LevelEditor-main",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.1950MapEditor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aliens.executor&quot;: &quot;Run&quot;,
+    &quot;Python.asd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.asda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.audiocapture.executor&quot;: &quot;Run&quot;,
+    &quot;Python.battle_message.executor&quot;: &quot;Run&quot;,
+    &quot;Python.battle_start.executor&quot;: &quot;Run&quot;,
+    &quot;Python.battle_turn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.blend_fill.executor&quot;: &quot;Run&quot;,
+    &quot;Python.block_game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.button.executor&quot;: &quot;Run&quot;,
+    &quot;Python.camera.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chimp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.column11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.level_editor_tut.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list0903_1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.list0904_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list1303_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list1304_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.map.executor&quot;: &quot;Run&quot;,
+    &quot;Python.maze_game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.msgbox.executor&quot;: &quot;Run&quot;,
+    &quot;Python.one_hour_dungeon.executor&quot;: &quot;Run&quot;,
+    &quot;Python.save.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.textinputbox.executor&quot;: &quot;Run&quot;,
+    &quot;Python.undertale game ver1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.이름이 지정되지 않았습니다.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/PycharmProjects/625 game/LevelEditor-main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\PC\PycharmProjects\625 game\LevelEditor-main" />
@@ -251,7 +750,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712491425889</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dasd">
+      <option name="closed" value="true" />
+      <created>1712666150306</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712666150306</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
