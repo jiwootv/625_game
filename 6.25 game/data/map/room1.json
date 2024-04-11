@@ -152,6 +152,15 @@
             ],
             "type": "floor"
         },
+        "2;7": {
+            "IRID": 0,
+            "img": "Floor1",
+            "pos": [
+                2,
+                7
+            ],
+            "type": "wall"
+        },
         "3;1": {
             "IRID": 0,
             "img": "B_layer1",
@@ -205,6 +214,15 @@
                 6
             ],
             "type": "floor"
+        },
+        "3;7": {
+            "IRID": 0,
+            "img": "Floor1",
+            "pos": [
+                3,
+                7
+            ],
+            "type": "wall"
         },
         "4;1": {
             "IRID": 0,
@@ -260,6 +278,15 @@
             ],
             "type": "floor"
         },
+        "4;7": {
+            "IRID": 0,
+            "img": "Floor1",
+            "pos": [
+                4,
+                7
+            ],
+            "type": "wall"
+        },
         "5;1": {
             "IRID": 0,
             "img": "Floor1",
@@ -313,6 +340,15 @@
                 6
             ],
             "type": "floor"
+        },
+        "5;7": {
+            "IRID": 0,
+            "img": "Floor1",
+            "pos": [
+                5,
+                7
+            ],
+            "type": "wall"
         },
         "6;1": {
             "IRID": 0,
@@ -368,6 +404,15 @@
             ],
             "type": "floor"
         },
+        "6;7": {
+            "IRID": 0,
+            "img": "Floor1",
+            "pos": [
+                6,
+                7
+            ],
+            "type": "wall"
+        },
         "7;1": {
             "IRID": 0,
             "img": "Floor1",
@@ -397,7 +442,7 @@
         },
         "7;4": {
             "IRID": 0,
-            "img": "Bricks1",
+            "img": "Bricks3",
             "pos": [
                 7,
                 4
@@ -421,6 +466,15 @@
                 6
             ],
             "type": "floor"
+        },
+        "7;7": {
+            "IRID": 0,
+            "img": "Floor1",
+            "pos": [
+                7,
+                7
+            ],
+            "type": "wall"
         },
         "8;1": {
             "IRID": 0,
@@ -476,6 +530,15 @@
             ],
             "type": "floor"
         },
+        "8;7": {
+            "IRID": 0,
+            "img": "Floor1",
+            "pos": [
+                8,
+                7
+            ],
+            "type": "wall"
+        },
         "9;1": {
             "IRID": 0,
             "img": "B_layer1",
@@ -529,6 +592,15 @@
                 6
             ],
             "type": "floor"
+        },
+        "9;7": {
+            "IRID": 0,
+            "img": "Floor1",
+            "pos": [
+                9,
+                7
+            ],
+            "type": "wall"
         }
     }
 }

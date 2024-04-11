@@ -203,7 +203,7 @@ class Map:
 		self.tileEvent = []
 		for i in range(self.tile_list.__len__()): self.TileHitboxIR.append("None")
 		# IRID 지정
-		#print(self.tile_list.__len__(), self.tile_hitboxes.__len__())
+		#(self.tile_list.__len__(), self.tile_hitboxes.__len__())
 		for i in range(len(self.tile_list)):
 			x = self.tile_list[i]["pos"][0] * self.tilesize - self.tilesize + self.move_pos[0]
 			y = self.tile_list[i]["pos"][1] * self.tilesize - self.tilesize + self.move_pos[1]
@@ -213,7 +213,7 @@ class Map:
 		for tileIR in self.TileHitboxIR:
 
 			if self.p_hitbox.colliderect(tileIR):
-				print(self.tile_list[self.TileHitboxIR.index(tileIR)]["IRID"])
+				(self.tile_list[self.TileHitboxIR.index(tileIR)]["IRID"])
 				self.tileEvent.append(self.tile_list[self.TileHitboxIR.index(tileIR)]["IRID"])
 
 		# 충돌 / 이동감지
@@ -252,7 +252,7 @@ class Map:
 					pygame.draw.rect(self.root, self.color, self.p_nexthitbox)
 				for tile_rect in self.tile_hitboxes:
 					if tile_rect != '' and not self.brickPass:
-						#print(tile_rect)
+						#(tile_rect)
 						if self.p_nexthitbox.colliderect(tile_rect):
 							self.collides[i] = 1
 							break
@@ -300,6 +300,5 @@ if __name__ == "__main__":
 					ROOMNUMBER += 1
 					M._load(ROOMNUMBER)
 					M.draw_set()
-			print()
 			Clock.tick(60)
 	main()
