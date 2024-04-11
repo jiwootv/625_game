@@ -22,7 +22,7 @@ class MsgBox:
         self.root = screen
         self.P = True
         self.size = size
-        self.text = text.split("\n")
+        self.text = text
         self.text.append("")
         self.now_text = ""
         self.now_text_count = 0
@@ -33,7 +33,7 @@ class MsgBox:
         self.text_speed = speed
         self.sound_type = soundtype
         self.text_on = True
-
+        self.quit = False
         self.time = 0
         self.rect1 = pygame.Rect(25, 340, 590, 120)
         self.rect2 = pygame.Rect(30, 350, 580, 100)
@@ -65,13 +65,17 @@ class MsgBox:
             self.now_text_count = 0
             self.now_text = ""
 
-    def _draw(self):
+    def _draw(self) -> None:
         pygame.draw.rect(self.root, (255, 255, 255), self.rect1)
         pygame.draw.rect(self.root, (0), self.rect2)
         self.root.blit(self.rect_t, (15 + self.size, 323 + self.y + self.size))
 # 아 왜 변경안됨 ;;
-    def timer(self):
+    def timer(self) -> None:
         self.time = pygame.time.get_ticks()
+
+    def get_event(self) -> int:
+        return self.quit
+
 
     def draw(self):
         clock = pygame.time.Clock()
@@ -80,11 +84,11 @@ class MsgBox:
             for event in pygame.event.get():
 
                 if event.type == pygame.QUIT:
-                    pygame.quit()
-                    sys.exit()
+                    self.quit = True
+                    self.P = False
 
                 if event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_z and len(self.text[self.text_line]) == self.now_text_count:
+                    if (event.key == pygame.K_z or event.key == pygame.K_RETURN) and len(self.text[self.text_line]) == self.now_text_count:
                         if self.text_maxline != self.text_line:
                             self.text_on = True
                             self.text_line += 1
@@ -107,6 +111,7 @@ if __name__ == "__main__":
     running = True
     clock = pygame.time.Clock()
     screen = pygame.display.set_mode((640, 480))
-    MsgBox(screen,
-           "TEST\n히히\n목아프다",
-           20, 0, 25)
+    if MsgBox(screen,
+           ["1972년 11월 21일,", "김두한은 오랜 지병이었던 고혈압으로 쓰러졌다"],
+           10, 0, 25).get_event():
+        print("SAVING")
