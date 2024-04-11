@@ -69,7 +69,7 @@ class MsgBox:
         pygame.draw.rect(self.root, (255, 255, 255), self.rect1)
         pygame.draw.rect(self.root, (0), self.rect2)
         self.root.blit(self.rect_t, (15 + self.size, 323 + self.y + self.size))
-
+# 아 왜 변경안됨 ;;
     def timer(self):
         self.time = pygame.time.get_ticks()
 
