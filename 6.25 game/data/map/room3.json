@@ -1,0 +1,192 @@
+{
+    "size": [
+        20,
+        20
+    ],
+    "startpos": [
+        60,
+        60
+    ],
+    "tilemap": {
+        "11;1": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                11,
+                1
+            ],
+            "type": "floor"
+        },
+        "11;2": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                11,
+                2
+            ],
+            "type": "floor"
+        },
+        "11;3": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                11,
+                3
+            ],
+            "type": "floor"
+        },
+        "11;5": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                11,
+                5
+            ],
+            "type": "floor"
+        },
+        "1;1": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                1,
+                1
+            ],
+            "type": "floor"
+        },
+        "1;2": {
+            "IRID": 0,
+            "img": "Bricks2",
+            "pos": [
+                1,
+                2
+            ],
+            "type": "floor"
+        },
+        "2;3": {
+            "IRID": 0,
+            "img": "Bricks2",
+            "pos": [
+                2,
+                3
+            ],
+            "type": "floor"
+        },
+        "3;1": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                3,
+                1
+            ],
+            "type": "floor"
+        },
+        "3;2": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                3,
+                2
+            ],
+            "type": "floor"
+        },
+        "4;3": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                4,
+                3
+            ],
+            "type": "floor"
+        },
+        "5;1": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                5,
+                1
+            ],
+            "type": "floor"
+        },
+        "5;2": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                5,
+                2
+            ],
+            "type": "floor"
+        },
+        "7;2": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                7,
+                2
+            ],
+            "type": "floor"
+        },
+        "7;3": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                7,
+                3
+            ],
+            "type": "floor"
+        },
+        "7;4": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                7,
+                4
+            ],
+            "type": "floor"
+        },
+        "8;1": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                8,
+                1
+            ],
+            "type": "floor"
+        },
+        "8;3": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                8,
+                3
+            ],
+            "type": "floor"
+        },
+        "9;2": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                9,
+                2
+            ],
+            "type": "floor"
+        },
+        "9;3": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                9,
+                3
+            ],
+            "type": "floor"
+        },
+        "9;4": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                9,
+                4
+            ],
+            "type": "floor"
+        }
+    }
+}
