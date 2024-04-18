@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8525b8e-685a-4813-b7f4-ac8fa5b587f1" name="변경" comment="dasd">
+      <change afterPath="$PROJECT_DIR$/6.25 game/SIn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/code/effect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/sound/effect/GlassBroken.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/sound/effect/HandGunSound1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/sound/effect/Sound license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/sound/music/Myuu-Down-the-Rabbit-Hole.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/sound/music/Myuu-Lights-Out.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/asda.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/asda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/code/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/code/map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/code/msgbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/code/msgbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/map/room1.json" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/map/room1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/save/file0" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/save/file0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,55 +57,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.1950MapEditor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Dict.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab.executor&quot;: &quot;Run&quot;,
-    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
-    &quot;Python.aliens.executor&quot;: &quot;Run&quot;,
-    &quot;Python.asd.executor&quot;: &quot;Run&quot;,
-    &quot;Python.asda.executor&quot;: &quot;Run&quot;,
-    &quot;Python.audiocapture.executor&quot;: &quot;Run&quot;,
-    &quot;Python.battle_message.executor&quot;: &quot;Run&quot;,
-    &quot;Python.battle_start.executor&quot;: &quot;Run&quot;,
-    &quot;Python.battle_turn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.blend_fill.executor&quot;: &quot;Run&quot;,
-    &quot;Python.block_game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.button.executor&quot;: &quot;Run&quot;,
-    &quot;Python.camera.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chimp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.column11.executor&quot;: &quot;Run&quot;,
-    &quot;Python.game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.level_editor_tut.executor&quot;: &quot;Run&quot;,
-    &quot;Python.list0903_1.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.list0904_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.list1303_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.list1304_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.map.executor&quot;: &quot;Run&quot;,
-    &quot;Python.maze_game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.msgbox.executor&quot;: &quot;Run&quot;,
-    &quot;Python.one_hour_dungeon.executor&quot;: &quot;Run&quot;,
-    &quot;Python.save.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.textinputbox.executor&quot;: &quot;Run&quot;,
-    &quot;Python.undertale game ver1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.이름이 지정되지 않았습니다.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/PycharmProjects/625 game/LevelEditor-main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.1950MapEditor.executor": "Run",
+    "Python.Dict.executor": "Run",
+    "Python.Lab.executor": "Run",
+    "Python.SIn.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.aliens.executor": "Run",
+    "Python.asd.executor": "Run",
+    "Python.asda.executor": "Run",
+    "Python.audiocapture.executor": "Run",
+    "Python.battle_message.executor": "Run",
+    "Python.battle_start.executor": "Run",
+    "Python.battle_turn.executor": "Run",
+    "Python.blend_fill.executor": "Run",
+    "Python.block_game.executor": "Run",
+    "Python.button.executor": "Run",
+    "Python.camera.executor": "Run",
+    "Python.chimp.executor": "Run",
+    "Python.column11.executor": "Run",
+    "Python.effect.executor": "Run",
+    "Python.game.executor": "Run",
+    "Python.level_editor_tut.executor": "Run",
+    "Python.list0903_1.executor": "Debug",
+    "Python.list0904_1.executor": "Run",
+    "Python.list1303_1.executor": "Run",
+    "Python.list1304_1.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.map.executor": "Debug",
+    "Python.maze_game.executor": "Run",
+    "Python.msgbox.executor": "Run",
+    "Python.one_hour_dungeon.executor": "Run",
+    "Python.save.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.textinputbox.executor": "Run",
+    "Python.undertale game ver1.executor": "Run",
+    "Python.이름이 지정되지 않았습니다.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/PC/PycharmProjects/625 game/LevelEditor-main",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\PC\PycharmProjects\625 game\LevelEditor-main" />
@@ -102,11 +116,11 @@
       <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\font" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\sound\effect" />
       <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\sound\music" />
       <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\img" />
       <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\code" />
       <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game" />
-      <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -116,7 +130,7 @@
       <command value="&lt;rect(0, 0, 20, 20)&gt;" />
     </option>
   </component>
-  <component name="RunManager" selected="Python.1950MapEditor">
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="625 game" />
       <option name="ENV_FILES" value="" />
@@ -191,8 +205,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.map" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.map" />
         <item itemvalue="Python.textinputbox" />
       </list>
     </recent_temporary>
@@ -293,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712839354685</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="dasd">
+      <option name="closed" value="true" />
+      <created>1712915062618</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712915062618</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

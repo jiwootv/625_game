@@ -5,6 +5,7 @@ import pygame
 pygame.init()
 DIR = "data\\"
 if __name__ == "__main__": DIR = "..\\"
+if __name__ == "msgbox": DIR = "..\\"
 
 DEBUG = True
 
@@ -16,9 +17,12 @@ def eventset(r):
 
 
 class MsgBox:
-    def __init__(self, screen, text, speed, soundtype, size, y=0):
+    def __init__(self, screen, text, speed, soundtype, size, *args):
         self.font = pygame.font.Font(DIR + "font\\DungGeunMo.otf", size)
-        self.y = y
+        try:
+            self.y = args[0]
+        except IndexError:
+            self.y = 0
         self.root = screen
         self.P = True
         self.size = size
@@ -44,7 +48,11 @@ class MsgBox:
         self.sound = [pygame.mixer.Sound(DIR + "sound\\effect\\A Piano.wav"), pygame.mixer.Sound(DIR + "sound\\effect"
                                                                                                        "\\Typing.wav", )]
         self.ev = 0
-        self.draw()
+        try:
+            self.draw(more_func=args[1])
+        except IndexError:
+            self.draw()
+
 
     def t_update(self):
         self.rect_t = self.font.render(self.now_text, 1, (255, 255, 255))
@@ -77,7 +85,7 @@ class MsgBox:
         return self.quit
 
 
-    def draw(self):
+    def draw(self, more_func=None):
         clock = pygame.time.Clock()
         self.P = True
         while self.P:
@@ -100,6 +108,9 @@ class MsgBox:
                     if event.key == pygame.K_x:
                         self.now_text = self.text[self.text_line]
                         self.now_text_count = len(self.text[self.text_line])
+                if more_func != None:
+                    print(type(more_func))
+                    more_func(event=event)
             self.t_update()
             self._draw()
             pygame.display.update()

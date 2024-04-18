@@ -3,6 +3,7 @@
 import json
 import pygame
 import sys
+#import effect
 
 DIR = r"C:\Users\PC\PycharmProjects\625 game\6.25 game\data\img\\" if __name__ == "__main__" else r"data\img\\"
 DIR1 = r"C:\Users\PC\PycharmProjects\625 game\6.25 game\data\map\\" if __name__ == "__main__" else "data\\map\\"
@@ -184,7 +185,7 @@ class Map:
 
 			if DEBUG:
 				pygame.draw.rect(self.root, self.color, self.p_hitbox)
-				pygame.draw.rect(self.root, self.color, self.tile_hitboxes[0])
+				#pygame.draw.rect(self.root, self.color, self.tile_hitboxes[0])
 
 
 
@@ -213,7 +214,6 @@ class Map:
 		for tileIR in self.TileHitboxIR:
 
 			if self.p_hitbox.colliderect(tileIR):
-				(self.tile_list[self.TileHitboxIR.index(tileIR)]["IRID"])
 				self.tileEvent.append(self.tile_list[self.TileHitboxIR.index(tileIR)]["IRID"])
 
 		# 충돌 / 이동감지
@@ -268,6 +268,7 @@ class Map:
 
 		if self.movetype[3] == 1 and not self.collides[3]:
 			self.move_pos[0] += self.move_speed
+		print(self.collide)
 
 	def moveposGet(self):
 		return self.move_pos

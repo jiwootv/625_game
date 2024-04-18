@@ -404,53 +404,38 @@ class Game:
         self.menu()
         print(" MAINRUN ")
         self.file_start()
-
-
+        self.screen.fill((0))
+        msg.MsgBox(self.screen, ["TEXT"], 10, 1, 50, 0, self.event).get_event()
 
 
         self.IntroBgm.stop()
         self.screen.fill(0)
-        msg.eventset(self.event)
-        while True:
-            a = msg.MsgBox(self.screen, "* 어둡다.. 아무것도 볼 수 없다", 20, 0, 25).draw()
-            if a == "END1":
-                pygame.quit()
-                sys.exit()
-            elif a == "END2":
-                print("성공")
-                break
 
-        while True:
-            a = msg.MsgBox(self.screen, "* 차갑다.. 아무것도 알 수 없다", 20, 0, 25).draw()
-            if a == "END1":
-                for event in pygame.event.get():
-                    self.event(event=event)
-            elif a == "END2":
-                print("성공")
-                break
 
-        while True:
-            a = msg.MsgBox(self.screen, "* 차가운 물이 한 방울 떨어졌다.", 20, 0, 25).draw()
-            for event in pygame.event.get():
-                self.event(event=event)
-            if a == "END2": break
+
 
         Screen = self.screen
         M = self.mapfile
         Clock = pygame.time.Clock()
-        M._load(2)
+        M._load(1)
         M.draw_set()
+        ROOMNUMBER = 0
         while True:
             self.screen.fill(0)
-            M.draw()
             M.event()
-            M._load(1)
-            M.draw_set()
-            Screen.blit(M.assets["Player"], (287, 215))
+            M.draw()
+
+            self.screen.blit(M.assets["Player"], (287, 215))
             pygame.display.update()
             for event in pygame.event.get():
-                self.event(event)
+                if event.type == pygame.QUIT:
+                    pygame.quit()
+                    sys.exit()
+            for i in M.tileEvent:
+                if i == 1:
+                    ROOMNUMBER += 1
+                    M._load(ROOMNUMBER)
+                    M.draw_set()
             Clock.tick(60)
-
 
 Game().run()
