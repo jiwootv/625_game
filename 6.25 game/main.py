@@ -6,7 +6,6 @@
 
 import sys
 import pygame
-import pygame as pg
 import data.code.map as Map
 from data.code.textinputbox import Textinput_box
 import data.code.save as Save
@@ -21,9 +20,6 @@ fps = 30
 game_name = "찌찌우 "
 speed = 10
 BLACK = (0, 0, 0)
-
-COLOR_INACTIVE = pg.Color('lightskyblue3')
-COLOR_ACTIVE = pg.Color('dodgerblue2')
 
 WHITE = (255, 255, 255)
 
@@ -287,13 +283,6 @@ class Game:
 
         print("t")
         self.menupage = 0
-
-        # if self.COpos_index == 3:  # 설정 메뉴
-        #     print("선수 입장")
-        #     self.event()
-        #     self.screen.fill(BLACK)
-        #     self.screen.blit(self.text(20, "설정"), (0, 0))
-
         menu_first()
 
 
@@ -429,6 +418,7 @@ class Game:
             pygame.display.update()
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
+                    S_FIRST.write()
                     pygame.quit()
                     sys.exit()
             for i in M.tileEvent:

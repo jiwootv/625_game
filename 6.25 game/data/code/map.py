@@ -5,8 +5,8 @@ import pygame
 import sys
 #import effect
 
-DIR = r"C:\Users\PC\PycharmProjects\625 game\6.25 game\data\img\\" if __name__ == "__main__" else r"data\img\\"
-DIR1 = r"C:\Users\PC\PycharmProjects\625 game\6.25 game\data\map\\" if __name__ == "__main__" else "data\\map\\"
+DIR = r"data\img\\" if __name__ == "__main__" else r"data\img\\"
+DIR1 = r"data\map\\" if __name__ == "__main__" else "data\\map\\"
 """
 에셋 종류
 Bricks1: 일반 벽돌
@@ -69,11 +69,17 @@ class Map:
 		self.tileEvent = []
 
 		# Map Count ( 맵 개수 ) 지정
-		self.MAP_COUNT = 2
+		self.MAP_COUNT = 5
 		with open(DIR1 + "room1.json") as f:
 			self.map1 = json.load(f)
 		with open(DIR1 + "room2.json") as f:
 			self.map2 = json.load(f)
+		with open(DIR1 + "room3.json") as f:
+			self.map3 = json.load(f)
+		with open(DIR1 + "room4.json") as f:
+			self.map4 = json.load(f)
+		with open(DIR1 + "room5.json") as f:
+			self.map5 = json.load(f)
 
 	def get_key(self, val, dict):
 
