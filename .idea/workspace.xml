@@ -4,14 +4,124 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8525b8e-685a-4813-b7f4-ac8fa5b587f1" name="변경" comment="개쩐다 우와">
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/code/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/code/gui.py" afterDir="false" />
+    <list default="true" id="c8525b8e-685a-4813-b7f4-ac8fa5b587f1" name="변경" comment="V 1.1 Update">
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/code/gun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/Gun/M1911.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/Gun/M1Garand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/Gun/WbRebolber.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/M1 GARAND.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/img/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.25 game/data/sound/effect/Rebolber1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/COLLECT-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/main.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/warn-main.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/xref-main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/SDL2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/SDL2_image.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/SDL2_mixer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/SDL2_ttf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/VCRUNTIME140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_asyncio.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_bz2.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_ctypes.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_decimal.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_hashlib.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_lzma.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_multiprocessing.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_overlapped.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_queue.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_socket.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_ssl.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_wmi.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/freetype.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/libcrypto-3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/libffi-8.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/libjpeg-9.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/libmodplug-1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/libogg-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/libopus-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/libopusfile-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/libpng16-16.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/libssl-3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/libtiff-5.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/libwebp-7.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/numpy.libs/libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/numpy/core/_multiarray_tests.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/numpy/core/_multiarray_umath.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/numpy/fft/_pocketfft_internal.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/numpy/linalg/_umath_linalg.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/numpy/random/_bounded_integers.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/numpy/random/_common.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/numpy/random/_generator.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/numpy/random/_mt19937.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/numpy/random/_pcg64.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/numpy/random/_philox.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/numpy/random/_sfc64.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/numpy/random/bit_generator.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/numpy/random/mtrand.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/portmidi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pyexpat.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/SDL2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/SDL2_image.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/SDL2_mixer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/SDL2_ttf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/_freetype.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/base.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/bufferproxy.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/color.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/constants.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/display.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/draw.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/event.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/font.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/freesansbold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/freetype.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/image.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/imageext.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/joystick.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/key.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/libjpeg-9.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/libogg-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/libopus-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/libpng16-16.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/mask.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/math.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/mixer.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/mixer_music.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/mouse.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/pixelarray.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/pixelcopy.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/pygame_icon.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/rect.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/rwobject.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/scrap.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/surface.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/surflock.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/time.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/transform.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pygame/zlib1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/python312.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/select.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/unicodedata.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/zlib1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.spec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/code/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/code/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/code/effect.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/code/effect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/code/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/code/gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.25 game/data/code/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/code/map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.25 game/data/map/room3.json" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/map/room3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.25 game/data/save/file0" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/save/file0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.25 game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/img/Gun/Rebolber-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/img/Gun/Rebolber.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/img/Player1.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +184,7 @@
     &quot;Python.effect.executor&quot;: &quot;Run&quot;,
     &quot;Python.game.executor&quot;: &quot;Run&quot;,
     &quot;Python.gui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gun.executor&quot;: &quot;Run&quot;,
     &quot;Python.level_editor_tut.executor&quot;: &quot;Run&quot;,
     &quot;Python.list0903_1.executor&quot;: &quot;Debug&quot;,
     &quot;Python.list0904_1.executor&quot;: &quot;Run&quot;,
@@ -110,9 +221,9 @@
       <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\font" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\img" />
       <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\sound\effect" />
       <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\sound\music" />
-      <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\img" />
       <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game\data\code" />
       <recent name="C:\Users\PC\PycharmProjects\625 game\6.25 game" />
     </key>
@@ -124,7 +235,29 @@
       <command value="&lt;rect(0, 0, 20, 20)&gt;" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.1950MapEditor">
+    <configuration name="effect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="625 game" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6.25 game/data/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.25 game/data/code/effect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="625 game" />
       <option name="ENV_FILES" value="" />
@@ -192,13 +325,15 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1950MapEditor" />
+      <item itemvalue="Python.effect" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.map" />
       <item itemvalue="Python.textinputbox" />
+      <item itemvalue="Python.1950MapEditor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.effect" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.map" />
         <item itemvalue="Python.textinputbox" />
@@ -325,7 +460,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713444858178</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="V 1.1 Update">
+      <option name="closed" value="true" />
+      <created>1713686888758</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713686888758</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -343,6 +486,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="dasd" />
     <MESSAGE value="개쩐다 우와" />
-    <option name="LAST_COMMIT_MESSAGE" value="개쩐다 우와" />
+    <MESSAGE value="V 1.1 Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="V 1.1 Update" />
   </component>
 </project>

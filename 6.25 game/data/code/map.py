@@ -5,8 +5,8 @@ import pygame
 import sys
 #import effect
 
-DIR = r"data\img\\" if __name__ == "__main__" else r"data\img\\"
-DIR1 = r"data\map\\" if __name__ == "__main__" else "data\\map\\"
+DIR = r"..\img\\" if __name__ == "__main__" else r"data\img\\"
+DIR1 = r"..\map\\" if __name__ == "__main__" else "data\\map\\"
 """
 에셋 종류
 Bricks1: 일반 벽돌
@@ -40,9 +40,11 @@ class Map:
 				"B_corner2": pygame.image.load(DIR + "tiles\\brick\\BricksConer2.png"),
 				"B_corner3": pygame.image.load(DIR + "tiles\\brick\\BricksConer3.png"),
 				"B_corner4": pygame.image.load(DIR + "tiles\\brick\\BricksConer4.png"),
-				"Player": (pygame.transform.scale(pygame.image.load(DIR + "Player1.png"), (22 * 3, 33 * 3))),
+				"Player1": (pygame.transform.scale(pygame.image.load(DIR + "enttites\\Player_Back.png"), (22 * 3, 33 * 3))),
+				"Player2": (pygame.transform.scale(pygame.image.load(DIR + "enttites\\Player_Front.png"), (22 * 3, 33 * 3))),
+				"Player3": (pygame.transform.scale(pygame.image.load(DIR + "enttites\\Player_Right.png"), (22 * 3, 33 * 3))),
+				"Player4": (pygame.transform.scale(pygame.image.load(DIR + "enttites\\Player_Left.png"), (22 * 3, 33 * 3)))
 			}
-		self.assets["Player"].set_colorkey((255, 255, 255))  # 하얀색 부분 제거
 
 		self.p_hitbox = pygame.rect.Rect(287, 215, 66, 99)
 		print(self.p_hitbox, "SAD")
@@ -137,7 +139,6 @@ class Map:
 		if DEBUG:
 			print("map size:", self.mapW, self.mapH)
 			print(type(self.mapH))
-		print(self.tile_list, "R")
 
 	def draw_set(self):
 		self.move_pos = list(map(lambda x: x * 30, self.map1["startpos"]))
@@ -154,7 +155,8 @@ class Map:
 		for i in self.assets.values():
 			r = self.get_key(i, self.assets)
 			if DEBUG: print(r)
-			if r != "Player": self.assets[r] = pygame.transform.scale(self.assets[r], (self.tilesize, self.tilesize))
+			print(r[:6])
+			if r[:6] != "Player": self.assets[r] = pygame.transform.scale(self.assets[r], (self.tilesize, self.tilesize))
 
 
 	def var_set(self, type, result):
@@ -275,7 +277,7 @@ class Map:
 		if self.movetype[3] == 1 and not self.collides[3]:
 			self.move_pos[0] += self.move_speed
 		print(self.collide)
-
+		return self.movetype
 	def moveposGet(self):
 		return self.move_pos
 
@@ -288,15 +290,23 @@ if __name__ == "__main__":
 	ROOMNUMBER = 1
 	M._load(ROOMNUMBER)
 	def main():
+		a = 1
 		global ROOMNUMBER
 		M.draw_set()
 		while True:
 			Screen.fill(0)
-			M.event()
+			Mtype = M.event()
+
+
+			for i in range(4):
+				if Mtype[i] == 1:
+					a = i
+					break
+
 			M.draw()
 
 
-			Screen.blit(M.assets["Player"], (287, 215))
+			Screen.blit(M.assets[f"Player{a+1}"], (287, 215))
 			pygame.display.update()
 			for event in pygame.event.get():
 				if event.type == pygame.QUIT:

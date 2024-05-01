@@ -19,7 +19,7 @@ WHITE = (255, 255, 255)
 
 # Clock to manage frame rate
 clock = pygame.time.Clock()
-DIR = "data\\"
+DIR = "data\\sound"
 if __name__ == '__main__': DIR = "..\\sound"
 
 
@@ -28,7 +28,7 @@ class GameOver:
 		self.game_over_sounds = [pygame.mixer.Sound(DIR + r"\music\Myuu-Down-the-Rabbit-hole.mp3"), pygame.mixer.Sound(r"..\sound\effect\GlassBroken.mp3"), pygame.mixer.Sound(r"..\sound\effect\HandGunSound1.mp3")]
 		self.game_over_sounds[2].play()
 		self.game_over_sounds[1].play()
-		self.game_over_sounds[0].play()
+		self.game_over_sounds[0].play(-1)
 		self.t123 = pygame.time.get_ticks()
 		self.soundcount = 0
 		print(self.t123)
@@ -95,7 +95,7 @@ class FadeInOut:
 
 # Run the program
 if __name__ == '__main__':
-	TYPE = 1
+	TYPE = 2
 	if TYPE == 1:
 		a = FadeInOut(window)
 

@@ -19,12 +19,19 @@ def text_draw(surface, size, text, color, posx, posy, sort=0):
 
 
 class StatsBar:
-	def __init__(self, screen, hp, room_number):
+	def __init__(self, screen):
 		self.screen = screen
-		self.hp = hp
-		self.rect = pygame.rect.Rect(620 - hp, 440, hp, 20)
-		self.room_N = room_number
+		self.hp = 0
+		self.rect = pygame.rect.Rect(620 - self.hp, 440, self.hp, 20)
+		self.room_N = 0
+		self.heartbeat = pygame.mixer.Sound(DIR + "sound\\effect\\HeartBeat.mp3")
+		self.heartbeat.play(-1)
+		self.heartbeat.set_volume(0)
 
+	def parameter_edit(self, *args):
+		self.hp = args[0]
+		self.room_N = args[1]
+		self.rect = pygame.rect.Rect(620 - self.hp, 440, self.hp, 20)
 	def draw(self):
 		self._drawNowRoom()
 		self._drawStatusBar()
@@ -39,10 +46,14 @@ class StatsBar:
 
 		if h < 2:
 			color = pygame.Color("red")
+			self.heartbeat.set_volume(1)
 		elif h < 4:
 			color = (200, 0, 0)
+			self.heartbeat.set_volume(0.5)
 		elif h < 8:
 			color = (255, 255, 0)
+			self.heartbeat.set_volume(0.1)
+		else: self.heartbeat.set_volume(0)
 		text = "HP | {}".format(k)
 		text_draw(self.screen, 20, text, color, 620, 420, sort=1)
 		pygame.draw.rect(self.screen, color, self.rect)
@@ -53,10 +64,11 @@ window = pygame.display.set_mode((640, 480))
 clock = pygame.time.Clock()
 k = 100
 roomnumber = 0
+S = StatsBar(window)
 while True:
 	# if k == 360: k = 0
 	window.fill((0))
-	S = StatsBar(window, k ,roomnumber)
+	S.parameter_edit(k,roomnumber)
 	S.draw()
 	for event in pygame.event.get():
 		if event.type == pygame.KEYDOWN:
