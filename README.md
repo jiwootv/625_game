@@ -1,7 +1,10 @@
-# 1950 - 멈춰버린 시간
+# 1950 - 정지
 ## ❓  이 게임은 뭐하는 게임인가요?
 - **6.25 전쟁을 테마로 삼은** ( 개발자 현재 1명 ) FPS | Avoid | 공포 게임입니다.
+- 정확히 주제가 정해지지 않았으므로, 추후 게임 이름 및 내용, 컨셉이 변경될수 있습니다.
+
 - 현재 같이 개발할 사람 모집중이니 많은 참여 부탁드립니다.
+- 
 - 이미지, 스토리, 시스템 프로그래머, 메인 프로그래머, 서브 프로그래머 모집중입니다.
 
 ## 패치노트
@@ -16,10 +19,7 @@ MsgBox의 ***작동 방식 수정***
 
 
 
-
 ## 🛠 모듈 엿보기
-
-
 
 <details><summary>접고 펴는 기능
 </summary>
@@ -33,40 +33,5 @@ MsgBox의 ***작동 방식 수정***
 
 </details>
 
-
-
-   
-
-
-
-   
-## Code Block  
-### Code inline
-- `console.log('Hello EASYME.md!');`  
-   
-### Code block
-```js
-function makeDeveloper(name, language) {
-  if (name === 'ONE:A' && language === 'JavaScript') {
-    return 'perfect!';
-  }
-
-  return false;
-}
-
-makeDeveloper('ONE:A', 'JavaScript');
-```
-
-<br>  
-   
-## Table  
-
-
-| title1 | title2 | title3 |
-| --- | --- | --- |
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
-
-
-<br> 
+## **아마도 출시 예정일: 1년 반 뒤**
+(정확하진 않습니다.)
