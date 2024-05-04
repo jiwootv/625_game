@@ -26,6 +26,7 @@ class StatsBar:
 		self.room_N = 0
 		self.heartbeat = pygame.mixer.Sound(DIR + "sound\\effect\\HeartBeat.mp3")
 		self.gun_bullet_img = [pygame.image.load(DIR + "img\\Gun\\bullet1.png"), pygame.image.load(DIR + "img\\Gun\\bullet2.png")]
+		self.gun_bullet_img = list(map(lambda x: pygame.transform.scale(x, (18, 32)), self.gun_bullet_img))
 		self.gun_bullets = []
 		self.heartbeat.play(-1)
 		self.heartbeat.set_volume(0)
@@ -41,8 +42,10 @@ class StatsBar:
 		self._drawNowBullet()
 
 	def _drawNowBullet(self):
-		for i in range(self.gun_bullets[1]):  # 전체 탄환 수로 반복문 돌리기
-			self.screen.blit(self.gun_bullet_img[0], (i*5, 0))
+		a = 100
+		text_draw(self.screen, 20, f"{self.gun_bullets[0]} / {self.gun_bullets[2]*self.gun_bullets[1]}", (255, 255, 255), 118, 410, sort=1)
+		for i in range(self.gun_bullets[1], 0, -1):  # 전체 탄환 수로 반복문 돌리기
+			self.screen.blit(self.gun_bullet_img[int(self.gun_bullets[0]<self.gun_bullets[1]-i+1)], (i*(a/self.gun_bullets[1]), 432))
 
 	def _drawNowRoom(self):
 		t = "현재 위치 | "+constants.ROOM_NAMES[self.room_N]
@@ -72,20 +75,30 @@ window = pygame.display.set_mode((640, 480))
 clock = pygame.time.Clock()
 k = 100
 roomnumber = 0
+a, b, c = 10, 10, 3
 S = StatsBar(window)
 while True:
 	# if k == 360: k = 0
 	window.fill((0))
-	S.parameter_edit(k, roomnumber, (20, 30))
+	S.parameter_edit(k, roomnumber, (a, b, c))
 	S.draw()
 	for event in pygame.event.get():
 		if event.type == pygame.KEYDOWN:
 			if event.key == pygame.K_DOWN and not k == 10:
 				k -= 10
-			if event.key == pygame.K_UP and not k == 200: k += 10
-			if event.key == pygame.K_t:
-				roomnumber += 1
+			if event.key == pygame.K_UP and not k == 200:
+				k += 10
+			if event.key == pygame.K_t: roomnumber += 1
 			if event.key == pygame.K_g: roomnumber -= 1
+			if event.key == pygame.K_r and a != b:
+				a+=1
+			if event.key == pygame.K_f and a != 0: a -= 1
+			if event.key == pygame.K_c:
+				a = 0
+				b += 1
+			if event.key == pygame.K_d:
+				a = 0
+				b -= 1
 		if event.type == pygame.QUIT or (event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE):
 			pygame.quit()
 			sys.exit()
