@@ -25,6 +25,8 @@ class StatsBar:
 		self.rect = pygame.rect.Rect(620 - self.hp, 440, self.hp, 20)
 		self.room_N = 0
 		self.heartbeat = pygame.mixer.Sound(DIR + "sound\\effect\\HeartBeat.mp3")
+		self.gun_bullet_img = [pygame.image.load(DIR + "img\\Gun\\bullet1.png"), pygame.image.load(DIR + "img\\Gun\\bullet2.png")]
+		self.gun_bullets = []
 		self.heartbeat.play(-1)
 		self.heartbeat.set_volume(0)
 
@@ -32,9 +34,15 @@ class StatsBar:
 		self.hp = args[0]
 		self.room_N = args[1]
 		self.rect = pygame.rect.Rect(620 - self.hp, 440, self.hp, 20)
+		self.gun_bullets = args[2]
 	def draw(self):
 		self._drawNowRoom()
 		self._drawStatusBar()
+		self._drawNowBullet()
+
+	def _drawNowBullet(self):
+		for i in range(self.gun_bullets[1]):  # 전체 탄환 수로 반복문 돌리기
+			self.screen.blit(self.gun_bullet_img[0], (i*5, 0))
 
 	def _drawNowRoom(self):
 		t = "현재 위치 | "+constants.ROOM_NAMES[self.room_N]
@@ -68,7 +76,7 @@ S = StatsBar(window)
 while True:
 	# if k == 360: k = 0
 	window.fill((0))
-	S.parameter_edit(k,roomnumber)
+	S.parameter_edit(k, roomnumber, (20, 30))
 	S.draw()
 	for event in pygame.event.get():
 		if event.type == pygame.KEYDOWN:

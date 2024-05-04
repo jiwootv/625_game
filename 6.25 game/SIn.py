@@ -22,7 +22,7 @@ class Test:
 			self.count = 4.2
 
 		pygame.draw.rect(screen, self.color, pygame.rect.Rect(self.x, 200 + math.tan(self.count + 0.5) * 20, 40, 60))
-
+for i in range(input()): print(i+1)
 tanmak = []
 for i in range(0): tanmak.append(Test(screen))
 while True:

@@ -8,6 +8,15 @@
         -1
     ],
     "tilemap": {
+        "10;1": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                10,
+                1
+            ],
+            "type": "wall"
+        },
         "10;2": {
             "IRID": 0,
             "img": "Floor1",
@@ -52,6 +61,15 @@
                 6
             ],
             "type": "floor"
+        },
+        "11;1": {
+            "IRID": 0,
+            "img": "Bricks1",
+            "pos": [
+                11,
+                1
+            ],
+            "type": "wall"
         },
         "11;2": {
             "IRID": 0,
