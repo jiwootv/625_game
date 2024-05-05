@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8525b8e-685a-4813-b7f4-ac8fa5b587f1" name="변경" comment="V 1.1.2 Update">
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/sound/effect/Reload0.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.25 game/data/sound/effect/Shot0.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6.25 game/data/code/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/code/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/code/gun.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/code/gun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.25 game/data/sound/effect/HandGunSound1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/6.25 game/data/sound/effect/Shot1.mp3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714786414315</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="V 1.1.2 Update">
+      <option name="closed" value="true" />
+      <created>1714802400463</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714802400463</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -6,9 +6,11 @@ DIR = "data\\"
 if __name__ == '__main__': DIR = "..\\"
 class Gun:
 	def __init__(self):
+		self.no_bullet_sound = pygame.mixer.Sound(DIR + "sound\\effect\\Shot0.wav")
 		self.gun_sound = pygame.mixer.Sound(DIR + "sound\\effect\\Rebolber1.mp3")
 		self.gun_sound.set_volume(0.25)
-		self.gun_sound.play()
+		#self.gun_sound.play()
+		self.no_bullet_sound.play()
 		self.gun_images = []
 
 
