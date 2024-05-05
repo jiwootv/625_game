@@ -123,7 +123,7 @@
       <command value="&lt;rect(0, 0, 20, 20)&gt;" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.1950MapEditor">
     <configuration name="effect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="625 game" />
       <option name="ENV_FILES" value="" />
